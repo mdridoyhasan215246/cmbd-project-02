@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Rufina", serif;
+    background-color: #F5F9F8;
+}
+body p{
+    font-family: "Source Sans 3", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/* header start */
+
+.main-header{
+    font-family: "Source Sans 3", sans-serif;
+    background-repeat: no-repeat;
+
+    min-height: 100%;
+    background: url(./images/life-coach-hero-img-bg.jpg) #000000;
+    background-size: cover;
+    
+
+   
+    
+    
+  
+
+   
+
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    
+}
+nav a{
+    color: white;
+    font-size: 17px;
+}
+.primary-btn{
+    color: white;
+    border: transparent;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    word-spacing: 6px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.primary-btn:hover{
+    background-color: white;
+    color: black;
+    transition: all .2s linear;
+}
+
+
+.hero-container{
+    color: white;
+    font-family: "Rufina", serif;
+
+ 
+}
+.content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+    padding: 160px 0px;
+}
+.content h6{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.content h1{
+    font-size:60px ;
+    font-weight: 700;
+}
+.content p{
+    max-width: 400px;
+    font-family: "Source Sans 3", sans-serif;
+    
+}
+
+
+
+.hero-bottom-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-img{
+    display: flex;
+    gap: 100px;
+    flex-direction: row-reverse;
+}
+.hero-bottom-logo h6{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
+    line-height: 1.25em;
+    letter-spacing: 1px;
+
+}
+
+.hero-bottom{
+    padding: 35px 0px;
+    border-top: 1px solid #ffffff1a;;
+
+}
+
+
+/* header end */
+
+
+
+
+
+
+/* struggline-content start */
+
+.struggline-content{
+    text-align: center;
+    padding: 120px 0px 20px 0px;
+}
+.struggline-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.struggline-content p{
+    max-width: 550px;
+   margin: auto;
+    font-size: 17px;
+    color: #434856;
+}
+
+.card i{
+ color: #03A07A;
+ font-size: 24px;
+}
+
+
+.all-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+}
+
+.card h4{
+    padding-top: 30px;
+}
+.card p{
+    font-size: 15px;
+    text-align: center;
+    color: #434856;
+}
+
+
+/* struggline-content end */
+
+
+
+
+
+/* after section start */
+.after-struggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0px 70px 0px ;
+    gap: 100px;
+    
+}
+.after-struggle h2{
+    flex-basis: 50%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.after-struggle p{
+    flex-basis: 50%;
+    font-size: 17px;
+    font-weight: 400;
+    color: #434856;
+    padding-right: 30px;
+
+}
+
+
+/* after section end*/
+
+
+
+/* carrier start */
+
+.carrier-img img{
+
+    border-radius: 15px 15px 0 0;
+}
+
+
+.carrier-container{
+    
+    
+}
+.carrier-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #29AE8E;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: -25px;
+   
+    
+}
+
+.card-details{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 40px 30px 30px;
+    color: white;
+    box-shadow: 1px 0px #05f5b942;
+   
+
+
+}
+
+.card-details h6{
+
+    font-size: 20px;
+    font-weight: 400px;
+  
+    
+    
+}
+.card-details h4{
+
+   font-size: 22px;
+    font-weight: 700px;
+
+}
+.card-details p{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.carrier-btn{
+    color: white;
+    padding-top: 40px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+
+
+/* carrier end */
+
+
+.big-text{
+    display: flex;
+    flex-direction: row;
+    padding: 120px 120px 60px 0;
+}
+.big-text h6{
+    flex-basis: 30%;
+    color: #03A07A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.big-text h3{
+    flex-basis: 70%;
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 40px;
+
+}
+
+
+
+/* after about start */
+
+.after-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 120px;
+}
+
+.after-img img{
+    border-radius: 20px;
+}
+
+.after-about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0 40px 0 95px;
+}
+.after-about-content img{
+    max-width: 120px;
+   
+}
+.pblod{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.after-about-content p{
+    font-size: 17px;
+    color: #434856;
+    line-height: 30px;
+}
+
+.after-about-content a{
+    color: #03A07A;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+.after-about-content a:hover{
+    color: black;
+}
+.after-about-content q{
+
+    color: #03A07A;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+   
+
+
+}
+
+.after-about-content h6{
+    color: #6f6f74;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+
+}
+
+
+/* 
+subcribe start */
+
+
+.subcribe{
+    padding-bottom: 100px;
+}
+.sub-main{
+    background-color: #03A07A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 30px;
+    border-radius: 20px;
+
+
+}
+
+.sub-content{
+    font-size: 30px;
+    font-weight: 700px;
+    color: white;
+    flex-basis: 40%;
+}
+.sub-mail{
+    flex-basis: 50%;
+}
+
+.sub-mail input{
+    padding:13px 100px;
+}
+
+
+
+/* testimonial start */
+
+
+
+.testimonial-heading{
+    
+    text-align: center;
+    
+   
+}
+.testimonial-heading h6{
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #03A07A;
+    font-weight: 400;
+}
+
+.testimonial-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.testimonal-details{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding-bottom: 100px;
+
+}
+.testimonial-contnet{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.testimonial-contnet i{
+    font-size: 20px;
+    color: #03A07A;
+}
+.testimonial-contnet p{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 500px;
+}
+.testimonial-contnet img{
+    border-radius: 50%;
+}
+
+
+
+.tone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+.tone h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #6f6f74;
+}
+
+
+
+
+
+
+
+/* testimonial end */
+
+/* bottom section start */
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #03A07A;
+    color: white;
+    padding: 60px 0;
+    border-radius: 15px;
+
+
+
+
+}
+
+
+
+.bottom-section h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bottom-section p{
+    color:  #E9E9E9;
+    font-size: 17px;
+    font-weight: 400;
+}
+.bottom-green{
+    padding-bottom: 100px;
+}
+
+
+
+/* footer style start */
+
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    padding-bottom: 100px;
+
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    gap: 10px;
+
+}
+.footer-logo img{
+    max-width: 110px;
+    
+
+}
+
+.footer-services{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    gap: 10px;
+}
+.footer-content a{
+   
+    color:  #434856;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans 3", sans-serif;
+
+
+}
+.footer-content a:hover{
+    color: #03A07A;
+
+}
+
+.footer-content p{
+   
+    color:  #434856;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans 3", sans-serif;
+
+
+}
+.footer-content h2, img{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    gap: 10px;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    gap: 10px;
+}
+
+
+.footer-bottom{
+    display: flex;
+   gap: 380px;
+   padding: 80px 0;
+    
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+}
+.footer-icon i:hover{
+    color: #29AE8E;
+
+}
+
+
+/* footer style end */
